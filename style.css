@@ -128,9 +128,9 @@ dialog.lokal::backdrop{background:rgba(25,28,30,.62)}
 .dl-meta{color:var(--muted);font-size:15.5px;margin-bottom:18px}
 .dl-price{font:500 30px/1.1 var(--hf);color:var(--ink);margin-bottom:4px}
 .dl-pm{color:var(--muted);font-size:15px;margin-bottom:18px}
-.dl dl{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;margin:0 0 18px;border-top:1px solid var(--line)}
+.dl dl{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:0;margin:0 0 18px;border-top:1px solid var(--line)}
 .dl dt,.dl dd{margin:0;padding:8px 0;border-bottom:1px solid var(--line);font-size:15.5px}
-.dl dd{text-align:right;color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.dl dd{padding-left:12px;text-align:right;color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
 .dl-sub{font:600 14px/1.2 var(--bf);color:var(--muted);margin:0 0 4px}
 .dl-act{display:flex;flex-direction:column;gap:10px;margin-top:6px}
 .dl-act .btn{width:100%}
